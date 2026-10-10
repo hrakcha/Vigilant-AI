@@ -1,0 +1,6 @@
+{
+  "name": "VIGILANT AI",
+  "description": "AI-Powered Threat Intelligence & Human Protection platform detecting suspicious communications, social engineering, and prompt injections targeting AI agents.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
