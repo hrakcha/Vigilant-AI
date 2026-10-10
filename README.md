@@ -255,28 +255,20 @@ npm run dev
 
 ---
 
-## 8. Hackathon Demonstration Plan (2–4 Minutes)
+## Future Improvements
 
-1. **Problem Hook (0:00 - 0:30):**  
-   Highlight the dilemma faced by modern humans and autonomous AI agents: deceptive social engineering and silent prompt injections disguised as routine messages.
-2. **Benign Baseline (0:30 - 0:50):**  
-   Load Demo #6 (Team Calendar Meeting). Observe how VIGILANT AI correctly assigns a `LOW` risk score (10/100) with zero false-alarm red flags.
-3. **Phishing & BEC Investigation (0:50 - 1:40):**  
-   Load Demo #1 (Chase Alert) and Demo #4 (CEO BEC Wire). Showcase extracted red flag quotes, claimed sender status, and the visual Attack Kill Chain timeline.
-4. **AI Agent Guard & Prompt Injection (1:40 - 2:30):**  
-   Switch to AI Agent Guard. Load Demo #5 (Hidden Prompt Injection). Show the `BLOCK` verdict, explain the difference between quoted research and active exploit, and demonstrate the simulated pipeline preventing unauthorized tool execution.
-5. **Incident Response & Copilot (2:30 - 3:15):**  
-   Launch the Incident Response checklist for *"Entered Credentials"*. Ask the Copilot *"What is the strongest red flag?"*.
-6. **Architecture & Close (3:15 - 3:45):**  
-   Summarize the dual-layer architecture, 15 passing automated tests, zero-trust privacy boundary, and ForgeHacks mission impact.
+- Improve threat detection accuracy through testing against larger, labeled datasets.
+- Expand support for different message formats and emerging cyber threats.
+- Enhance prompt-injection detection and validation of AI agent security controls.
+- Improve incident response recommendations and threat explanations.
+- Evaluate false-positive and false-negative rates across diverse scenarios.
 
----
+## Conclusion
 
-## 9. ForgeHacks Submission Materials
+VIGILANT AI combines explainable threat analysis, cybersecurity awareness, and AI agent security demonstrations in one platform. By highlighting suspicious evidence, communicating risk levels, and providing actionable guidance, it aims to help users recognize potential threats and make safer decisions.
 
-- **Project Title:** VIGILANT AI
-- **Tagline:** See the threat before it strikes.
-- **Short Description (30 words):**  
-  An explainable AI cybersecurity platform detecting phishing, social engineering, and autonomous agent prompt injections with evidence-backed threat reports, kill chain reconstruction, and incident response workflows.
-- **Track:** AI + Cybersecurity
-- **Security & Privacy Commitment:** Zero persistent server retention of submitted message bodies; client-side cryptographic isolation; strict input bound enforcement.
+## Author
+
+**Rakcha H**
+
+Built as an individual project for ForgeHacks 2026.
